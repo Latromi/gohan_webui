@@ -215,6 +215,10 @@ body {
       padding-top: 6px;
       padding-bottom: 6px;
     }
+    .gohan_delete_selected {
+      padding-top: 6px;
+      padding-bottom: 6px;
+    }
   }
   margin-bottom: 10px;
 }
@@ -265,6 +269,10 @@ body {
       color: #fff;
     }
   }
+}
+
+.selector_col {
+  width: 20px;
 }
 
 /*
@@ -645,6 +653,7 @@ input[type="checkbox"].form-control {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 .tableview, .detailview, .error-message{
   > [data-gohan="error"] {
     position: absolute;
@@ -658,4 +667,9 @@ input[type="checkbox"].form-control {
       margin-right: auto;
     }
   }
+}
+
+tr.disabled {
+    background: #eeeeee;
+    color: #999999;
 }
